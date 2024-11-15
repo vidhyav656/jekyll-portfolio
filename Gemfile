@@ -8,7 +8,7 @@ group :jekyll_plugins do
   gem "jekyll-gist", "~> 1.5"
   gem "jekyll-feed", "~> 0.1"
   gem "jekyll-include-cache", "~> 0.1"
-  gem "faraday"
+  gem "faraday-retry", "~> 2.2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
