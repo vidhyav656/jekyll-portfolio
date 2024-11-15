@@ -99,6 +99,7 @@ PLATFORMS
   x64-mingw-ucrt
 
 DEPENDENCIES
+  faraday
   jekyll
   jekyll-feed (~> 0.1)
   jekyll-gist (~> 1.5)
