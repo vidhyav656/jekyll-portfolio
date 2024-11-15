@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "jekyll"
+gem "jekyll", "~> 4.2"
 
 group :jekyll_plugins do
   gem "jekyll-paginate", "~> 1.1"
@@ -9,7 +9,6 @@ group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.1"
   gem "jekyll-include-cache", "~> 0.1"
   gem "faraday"
-  gem "github-pages"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
